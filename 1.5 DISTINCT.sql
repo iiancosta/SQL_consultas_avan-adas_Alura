@@ -1,0 +1,11 @@
+
+--DISTINCT
+
+
+SELECT EMBALAGEM FROM TABELA_DE_PRODUTOS;
+
+SELECT DISTINCT EMBALAGEM FROM TABELA_DE_PRODUTOS; --Apresenta apenas os tipos DISTINTOS de embalagem
+
+SELECT DISTINCT EMBALAGEM FROM TABELA_DE_PRODUTOS WHERE SABOR = 'Maca'; --Apresenta os tipos de embalagem que armazenam as maçãs
+
+SELECT DISTINCT EMBALAGEM, SABOR FROM TABELA_DE_PRODUTOS; --Apresenta as frutas de cada embalagem
